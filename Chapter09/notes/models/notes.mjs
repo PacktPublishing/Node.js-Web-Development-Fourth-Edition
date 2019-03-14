@@ -23,7 +23,7 @@ export async function create(key, title, body) {
 export async function update(key, title, body) {
     const note = await (await model()).update(key, title, body);
     debug(`note updated ${util.inspect(note)}`);
-    _events.noteUpdate(note);
+    _events.noteUpdate({ key: note.key, title: note.title, body: note.body });
     return note;
 }
 
