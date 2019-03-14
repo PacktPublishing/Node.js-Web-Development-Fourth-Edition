@@ -83,7 +83,9 @@ $(document).ready(function () {
     io('/view').on('noteupdate', function(note) { 
         if (note.key === "{{ notekey }}") { 
             $('h3#notetitle').empty(); 
-            $('h3#notetitle').text(note.title); 
+            $('h3#notetitle').text(note.title);
+            $('navbartitle').empty(); 
+            $('navbartitle').text(note.title); 
             $('#notebody').empty(); 
             $('#notebody').text(note.body); 
         } 
