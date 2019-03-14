@@ -24,7 +24,7 @@
     </button>
     {{#if user}}
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <span class="navbar-text text-dark col">{{ title }}</span>
+            <span id="navbartitle" class="navbar-text text-dark col">{{ title }}</span>
             <a class="nav-item nav-link btn btn-dark col-auto" href="/users/logout">
             Log Out <span class="badge badge-light">{{ user.username }}</span></a>
             <a class="nav-item nav-link btn btn-dark col-auto" href='/notes/add'>ADD Note</a>
