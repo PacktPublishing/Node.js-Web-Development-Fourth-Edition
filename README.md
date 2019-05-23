@@ -38,9 +38,9 @@ Although Node.js is a cross-platform software development platform, some third-p
 
 
 ## Related Products
-* [Node.js Web Development - Third Edition](https://www.packtpub.com/web-development/nodejs-web-development-third-edition?utm_source=github&utm_medium=repository&utm_campaign=9781785881503)
+* [Node.js Web Development - Fourth Edition](https://amzn.to/2YP9npd)
 
-* [RESTful Web API Design with Node.js 10 - Third Edition](https://www.packtpub.com/web-development/restful-web-api-design-nodejs-10-third-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788623322)
+* [RESTful Web API Design with Node.js 10 - Third Edition](https://amzn.to/30Cb7Uh)
 
 * [Hands-on Application Development with Node.js [Video]](https://www.packtpub.com/web-development/hands-application-development-nodejs-video?utm_source=github&utm_medium=repository&utm_campaign=9781789135244)
 
