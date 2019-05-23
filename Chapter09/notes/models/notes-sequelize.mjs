@@ -84,8 +84,7 @@ export async function read(key) {
 export async function destroy(key) { 
     try {
         const SQNote = await connectDB();
-        const note = await SQNote.find({ where: { notekey: key } }) 
-        note.destroy();
+        SQNote.destroy({ where: { notekey: key } });
     } catch (e) {
         error(`notes DESTROY ERROR ${e.stack}`);
         throw e;
