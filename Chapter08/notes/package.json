@@ -30,7 +30,7 @@
     "level": "2.1.x",
     "sqlite3": "3.1.x",
     "sequelize": "4.31.x",
-    "js-yaml": "3.10.x",
+    "js-yaml": "3.13.x",
     "mongodb": "3.x",
     "passport": "^0.4.x",
     "passport-local": "^1.x",
